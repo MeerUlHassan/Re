@@ -1,0 +1,70 @@
+header{
+    height: 100vh;
+    padding-top: 5rem;
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+.header__container{
+    text-align: center;
+    height: 90%;
+    width: 100%;
+    position: relative;
+}
+
+/* ================= CTA =============== */
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-bottom: 4rem;
+}
+
+/* ================= SOCIALS =============== */
+
+.header__socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    left: 0;
+    flex-direction: column;
+    position: absolute;
+    bottom: 3rem;
+}
+
+/* ================= HEADER IMAGE =============== */
+
+.me{
+    background: linear-gradient( var(--color-primary), transparent);
+    width: 22rem;
+    height: 40rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12rem 12rem 0 0;
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+/* ===============SCROLL DOWN =============== */
+.scroll__down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 2rem;
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width:1024px) {
+    header{
+        height: 68vh;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header{
+        height: 100vh;
+    } 
+    .header__socials{
+        display: none;
+    }
+}
