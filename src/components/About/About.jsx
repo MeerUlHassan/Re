@@ -39,9 +39,15 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis sit natus eum. Tempore reprehenderit omnis autem possimus tempora ad perferendis, assumenda eum dolorem temporibus hic sed magnam tenetur esse quisquam!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
+            sit natus eum. Tempore reprehenderit omnis autem possimus tempora ad
+            perferendis, assumenda eum dolorem temporibus hic sed magnam tenetur
+            esse quisquam!
           </p>
-          <a href="#contact" className="btn btn-primary"> Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            {" "}
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
