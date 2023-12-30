@@ -55,7 +55,7 @@ const Experience = () => {
             <article className="exp__details">
               <BsPatchCheckFill />
               <div>
-                <h4>Node</h4>
+                <h4>Django</h4>
                 <small className="text-light">Basics</small>
               </div>
             </article>
@@ -70,7 +70,40 @@ const Experience = () => {
               <BsPatchCheckFill />
               <div>
                 <h4>MySQL</h4>
+                <small className="text-light">Advanced</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="exp__backend">
+          <h3>Other Technologies</h3>
+          <div className="exp__content">
+            <article className="exp__details">
+              <BsPatchCheckFill />
+              <div>
+                <h4>Git/Github</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="exp__details">
+              <BsPatchCheckFill />
+              <div>
+                <h4>Linux</h4>
                 <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="exp__details">
+              <BsPatchCheckFill />
+              <div>
+                <h4>UI/UX Figma</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="exp__details">
+              <BsPatchCheckFill />
+              <div>
+                <h4>Tailwind</h4>
+                <small className="text-light">Basics</small>
               </div>
             </article>
           </div>

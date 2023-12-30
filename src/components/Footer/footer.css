@@ -1,0 +1,55 @@
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.footer__container {
+  background-color: rgb(44, 29, 29);
+  margin-top: 5rem;
+  height: 50vh;
+}
+.about-sec {
+  padding: 2rem;
+}
+.about-sec p {
+  font-size: 0.9rem;
+}
+.ques__ft {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.email {
+  /* width: 2rem; */
+}
+.services-ft {
+  padding-top: 2rem;
+}
+.services-ft h5 {
+  padding: 0.3rem;
+}
+.question {
+  padding-top: 2rem;
+}
+
+.about-sec {
+}
+.links {
+  padding-top: 2rem;
+}
+.permalink li a {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .footer__container {
+    height: 120vh;
+    max-width: 100%;
+    padding: 1rem;
+  }
+}

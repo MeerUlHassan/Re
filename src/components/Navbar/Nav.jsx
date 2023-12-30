@@ -4,6 +4,7 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { LuMessagesSquare } from "react-icons/lu";
+import { AiFillAppstore } from "react-icons/ai";
 import "./nav.css";
 
 const Nav = () => {
@@ -37,6 +38,13 @@ const Nav = () => {
         className={activeNav === "#service" ? "active" : ""}
       >
         <RiServiceLine />
+      </a>
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
+        <AiFillAppstore />
       </a>
       <a
         href="#contact"
