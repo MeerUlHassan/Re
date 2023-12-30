@@ -3,8 +3,8 @@ import "./portfolio.css";
 import IMG1 from "../../assets/proj-1.jpg";
 import IMG2 from "../../assets/proj-2.jpg";
 import IMG3 from "../../assets/proj-3.png";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
+import IMG4 from "../../assets/proj-4.png";
+import IMG5 from "../../assets/proj-5.jpg";
 import IMG6 from "../../assets/portfolio6.jpg";
 
 const data = [
@@ -28,6 +28,20 @@ const data = [
     title: "Little Lemon (HTML/CSS)",
     github: "https://github.com/MeerUlHassan/litelLemon-Html-Css",
     demo: "https://meerulhassan.github.io/litelLemon-Html-Css/index.html",
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: "Responsive YouTube Clone",
+    github: "https://github.com/",
+    demo: "https://meerulhassan.github.io/ytClone/",
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: "Fast-Food App",
+    github: "https://github.com/MeerUlHassan/MenuPage-kfc",
+    demo: "https://meerulhassan.github.io/MenuPage-kfc/",
   },
 ];
 const Portfolio = () => {
