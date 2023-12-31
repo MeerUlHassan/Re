@@ -43,7 +43,7 @@ const Contact = () => {
             <BsWhatsapp />
             <h4>WhatsApp</h4>
             <h5>Click below to Chat!</h5>
-            <a href="https://wa.me/+923097280432" target='_blank'>WhatsApp</a>
+            <a href="https://wa.me/+923084421858" target='_blank'>WhatsApp</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
